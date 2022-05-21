@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Parham's exercise</title>
+    <meta name="description" content="exercise" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div style="padding: 20px;">
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="firstName">First name</span>
+      <input type="text" class="form-control" placeholder="E.g. Parham" aria-label="Username" aria-describedby="basic-addon1">
+      <span class="input-group-text" id="lastName">Last name</span>
+      <input type="text" class="form-control" placeholder="E.g. Mirzaei" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="nationalId">National ID</span>
+      <input type="text" class="form-control" placeholder="E.g. 9876543210" aria-label="Username" aria-describedby="basic-addon1">
+      <span class="input-group-text" id="cellPhone">Cell-phone</span>
+      <input type="text" class="form-control" placeholder="E.g. 09876543210" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div>
+    <button type="button" class="btn btn-info" id="submitButton" onclick="Function ('SubmitEvent')">Submit</button>
+  </div>
+    <div style="padding: 50px;">
+      <table class="table" id="submitTable">
+        <thead>
+          <tr>
+            <th scope="col"><p class="btn btn-primary active" aria-current="page" id="rowNumberTable">RN</p></th>
+            <th scope="col"><p class="btn btn-primary active" aria-current="page" id="firstNameTable">First name</p></th>
+            <th scope="col"><p class="btn btn-primary active" aria-current="page" id="lastNameTable">Last name</p></th>
+            <th scope="col"><p class="btn btn-primary active" aria-current="page" id="nationalIdTable">National ID</p></th>
+            <th scope="col"><p class="btn btn-primary active" aria-current="page" id="cellPhoneTable">Cell-phone number</p></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+    <script src="../exercise/javaescript.js"></script>
+  </body>
+</html>
